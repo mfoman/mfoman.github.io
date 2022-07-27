@@ -83,12 +83,12 @@
 <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
 
 
+  
+    <script src="/assets/js/tabs.js"></script>
+  
 
-    <!-- start custom head snippets -->
 
-<!-- insert favicons. use https://realfavicongenerator.net/ -->
-
-<!-- end custom head snippets -->
+    <link rel="stylesheet" href="/assets/css/tabs.css">
 
   </head>
 
@@ -383,6 +383,20 @@ I’ll teach you C++ and challenge you to learn it.</p>
 
 <h3 id="1-variables">1. Variables</h3>
 
+<ul class="tab" data-tab="e12f3d2d-e904-4aaf-bd8c-ee7bb01eb14a" data-name="hello">
+  
+      <li class="active">
+          <a href="#">Comments </a>
+      </li>
+  
+      <li>
+          <a href="#">Without </a>
+      </li>
+  
+</ul>
+<ul class="tab-content" id="e12f3d2d-e904-4aaf-bd8c-ee7bb01eb14a" data-name="hello">
+  
+      <li class="active">
 <div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// main.cpp</span>
 
 <span class="c1">// Preprocessor Directive</span>
@@ -392,10 +406,8 @@ I’ll teach you C++ and challenge you to learn it.</p>
 <span class="c1">// main function - must have signature of int main()</span>
 <span class="c1">// char *argv[] is a pointer to an array of char</span>
 <span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="kt">char</span> <span class="o">*</span><span class="n">argv</span><span class="p">[])</span> <span class="p">{</span>
-
     <span class="kt">int</span> <span class="n">a</span><span class="p">{</span><span class="mi">3</span><span class="p">};</span>           <span class="c1">// direct brace initialization</span>
     <span class="kt">int</span> <span class="n">b</span><span class="p">{</span><span class="mi">4</span><span class="p">};</span>           <span class="c1">// better on 2 lines than on 1 line</span>
-
     <span class="kt">int</span> <span class="n">guess</span><span class="p">{};</span>        <span class="c1">// zero initialization - 0</span>
 
     <span class="c1">// Console output with &lt;&lt; insertion operator</span>
@@ -413,9 +425,34 @@ I’ll teach you C++ and challenge you to learn it.</p>
     <span class="p">}</span>
 
     <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>          <span class="c1">// value of 0 indicates success</span>
-
 <span class="p">}</span>
 </code></pre></div></div>
+</li>
+  
+      <li>
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#include &lt;iostream&gt;     
+</span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="kt">char</span> <span class="o">*</span><span class="n">argv</span><span class="p">[])</span> <span class="p">{</span>
+    <span class="kt">int</span> <span class="n">a</span><span class="p">{</span><span class="mi">3</span><span class="p">};</span>
+    <span class="kt">int</span> <span class="n">b</span><span class="p">{</span><span class="mi">4</span><span class="p">};</span>
+    <span class="kt">int</span> <span class="n">guess</span><span class="p">{};</span>
+
+    <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"How many primitive types are in c++?: "</span><span class="p">;</span>
+
+    <span class="n">std</span><span class="o">::</span><span class="n">cin</span> <span class="o">&gt;&gt;</span> <span class="n">guess</span><span class="p">;</span>
+
+    <span class="k">if</span> <span class="p">(</span><span class="n">guess</span> <span class="o">==</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"Correct, it's 7!"</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
+    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+        <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"Wrong!</span><span class="se">\n</span><span class="s">"</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+</li>
+  
+</ul>
 
 <p>The primitive types(7) are: <code class="language-plaintext highlighter-rouge">float, int, double, char, bool, void and wchar_t</code>.</p>
 
