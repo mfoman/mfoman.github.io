@@ -23,7 +23,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="raisa.dev">
 <meta property="og:title" content="C++: 01 - The Basics">
-<meta property="og:url" content="https://raisa.dev/learning/cpp-01/">
+<meta property="og:url" content="http://localhost:4000/learning/cpp-01/">
 
 
   <meta property="og:description" content="Unfinished: Article is not done yet.">
@@ -34,14 +34,16 @@
 
 
 
-  <meta property="article:published_time" content="2022-07-26T00:00:00+02:00">
+  <meta property="article:published_time" content="2022-07-26T21:34:30+02:00">
+
+
+
+  <meta property="article:modified_time" content="2022-07-27T21:34:30+02:00">
 
 
 
 
-
-
-<link rel="canonical" href="https://raisa.dev/learning/cpp-01/">
+<link rel="canonical" href="http://localhost:4000/learning/cpp-01/">
 
 
 
@@ -52,7 +54,7 @@
     
       "@type": "Person",
       "name": null,
-      "url": "https://raisa.dev/"
+      "url": "http://localhost:4000/"
     
   }
 </script>
@@ -160,7 +162,7 @@
 
   
     <div class="author__avatar">
-      <a href="https://raisa.dev/">
+      <a href="http://localhost:4000/">
         <img src="/assets/images/profile.jpeg" alt="Frederik Raisa" itemprop="image" class="u-photo">
       </a>
     </div>
@@ -168,7 +170,7 @@
 
   <div class="author__content">
     <h3 class="author__name p-name" itemprop="name">
-      <a class="u-url" rel="me" href="https://raisa.dev/" itemprop="url">Frederik Raisa</a>
+      <a class="u-url" rel="me" href="http://localhost:4000/" itemprop="url">Frederik Raisa</a>
     </h3>
     
       <div class="author__bio p-note" itemprop="description">
@@ -270,14 +272,14 @@
   <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
     <meta itemprop="headline" content="C++: 01 - The Basics">
     <meta itemprop="description" content="Unfinished: Article is not done yet.">
-    <meta itemprop="datePublished" content="2022-07-26T00:00:00+02:00">
-    
+    <meta itemprop="datePublished" content="2022-07-26T21:34:30+02:00">
+    <meta itemprop="dateModified" content="2022-07-27T21:34:30+02:00">
 
     <div class="page__inner-wrap">
       
         <header>
           <h1 id="page-title" class="page__title p-name" itemprop="headline">
-            <a href="https://raisa.dev/learning/cpp-01/" class="u-url" itemprop="url">C++: 01 - The Basics
+            <a href="http://localhost:4000/learning/cpp-01/" class="u-url" itemprop="url">C++: 01 - The Basics
 </a>
           </h1>
           
@@ -339,6 +341,8 @@
         
         <p class="notice--warning"><strong>Unfinished:</strong> Article is not done yet.</p>
 
+<!--more-->
+
 <p class="notice--info"><strong>Disclaimer:</strong> This is a series of posts about C++. It’s mainly for me to learn C++, but just as much for me to be able to teach others.
 I will be using only one convention when talking about certain topics. Meaning that I will only name alternative
 methods if I deem it fitting. So just treat my word as law and of course lookup the facts and prove me wrong.</p>
@@ -383,7 +387,7 @@ I’ll teach you C++ and challenge you to learn it.</p>
 
 <h3 id="1-variables">1. Variables</h3>
 
-<ul class="tab" data-tab="886e00bb-44b7-423a-9a5c-7b92bada6015" data-name="hello">
+<ul class="tab" data-tab="79cd12b4-a175-4271-b050-7da3c05ad458" data-name="hello">
   
       <li class="active">
           <a href="#">Comments </a>
@@ -394,7 +398,7 @@ I’ll teach you C++ and challenge you to learn it.</p>
       </li>
   
 </ul>
-<ul class="tab-content" id="886e00bb-44b7-423a-9a5c-7b92bada6015" data-name="hello">
+<ul class="tab-content" id="79cd12b4-a175-4271-b050-7da3c05ad458" data-name="hello">
   
       <li class="active">
 <div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// main.cpp</span>
@@ -466,6 +470,17 @@ variable-width encodings like <code class="language-plaintext highlighter-rouge"
 
 <h3 id="2-functions">2. Functions</h3>
 
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// main.cpp</span>
+
+<span class="kt">int</span> <span class="nf">addTwo</span><span class="p">(</span><span class="kt">int</span> <span class="n">a</span><span class="p">,</span> <span class="kt">int</span> <span class="n">b</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="n">fn</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+    <span class="n">std</span><span class="o">::</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">addTwo</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span> <span class="o">&lt;&lt;</span> <span class="sc">'\n'</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
 <h3 id="3-classes">3. Classes</h3>
 
 <h2 id="2-use-the-language-to-solve-a-problem">2. Use the language to solve a problem</h2>
@@ -483,9 +498,10 @@ variable-width encodings like <code class="language-plaintext highlighter-rouge"
   <li><a href="https://www.learncpp.com/cpp-tutorial/variable-assignment-and-initialization/">learncpp: 1.4 - Variable assignment and initialization</a></li>
   <li><a href="https://www.learncpp.com/cpp-tutorial/introduction-to-iostream-cout-cin-and-endl/">learncpp: 1.5 - Introduction to iostream: cout, cin, and endl</a></li>
   <li><a href="https://stackoverflow.com/questions/13509733/what-is-the-use-of-wchar-t-in-general-programming">stackoverflow: what the wchat_t</a></li>
+  <li><a href="https://algs4.cs.princeton.edu/15uf/">princeton: union-find</a></li>
 </ol>
 
-        
+        <div><a href="https://github.com" class="btn btn--primary">Direct Link</a></div>
       </section>
 
       <footer class="page__meta">
@@ -533,32 +549,22 @@ variable-width encodings like <code class="language-plaintext highlighter-rouge"
 
         
 
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2022-07-26T00:00:00+02:00">July 26, 2022</time></p>
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2022-07-27">July 27, 2022</time></p>
 
       </footer>
 
       <section class="page__share">
   
 
-  <a href="https://twitter.com/intent/tweet?text=C%2B%2B%3A+01+-+The+Basics%20https%3A%2F%2Fraisa.dev%2Flearning%2Fcpp-01%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=C%2B%2B%3A+01+-+The+Basics%20http%3A%2F%2Flocalhost%3A4000%2Flearning%2Fcpp-01%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fraisa.dev%2Flearning%2Fcpp-01%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Flearning%2Fcpp-01%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fraisa.dev%2Flearning%2Fcpp-01%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Flearning%2Fcpp-01%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
 
       
-  <nav class="pagination">
-    
-      <a href="/blog/welcome-to-jekyll/" class="pagination--pager" title="Welcome to Jekyll!
-">Previous</a>
-    
-    
-      <a href="#" class="pagination--pager disabled">Next</a>
-    
-  </nav>
-
     </div>
 
     
@@ -571,175 +577,9 @@ variable-width encodings like <code class="language-plaintext highlighter-rouge"
       <div class="grid__wrapper">
         
           
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/blog/welcome-to-jekyll/" rel="permalink">Welcome to Jekyll!
-</a>
-      
-    </h2>
-    
-
-  <p class="page__meta">
-    
-
-    
-
-    
-      
-      
-
-      <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
-        
-          less than 1 minute read
-        
-      </span>
-    
-  </p>
-
-
-    <p class="archive__item-excerpt" itemprop="description">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different wa...</p>
-  </article>
-</div>
-
-        
-          
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="https://github.com">Post: Link
-</a> <a href="/blog/post-link/" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
-      
-    </h2>
-    
-
-  <p class="page__meta">
-    
-
-    
-
-    
-      
-      
-
-      <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
-        
-          less than 1 minute read
-        
-      </span>
-    
-  </p>
-
-
-    <p class="archive__item-excerpt" itemprop="description">This theme supports link posts, made famous by John Gruber. To use, just add link: http://url-you-want-linked to the post’s YAML front matter and you’re done.
-
-</p>
-  </article>
-</div>
-
-        
-          
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/blog/post-quote/" rel="permalink">Post: Quote
-</a>
-      
-    </h2>
-    
-
-  <p class="page__meta">
-    
-
-    
-
-    
-      
-      
-
-      <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
-        
-          less than 1 minute read
-        
-      </span>
-    
-  </p>
-
-
-    <p class="archive__item-excerpt" itemprop="description">
-  Only one thing is impossible for God: To find any sense in any copyright law on the planet.
-
-
-
-  Mark Twain
-
-</p>
-  </article>
-</div>
-
-        
-          
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/blog/post-notice/" rel="permalink">Post: Notice
-</a>
-      
-    </h2>
-    
-
-  <p class="page__meta">
-    
-
-    
-
-    
-      
-      
-
-      <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
-        
-          1 minute read
-        
-      </span>
-    
-  </p>
-
-
-    <p class="archive__item-excerpt" itemprop="description">A notice displays information that explains nearby content. Often used to call attention to a particular detail.
-
-</p>
-  </article>
-</div>
-
-        
+            
       </div>
     </div>
-  
   
 </div>
 
