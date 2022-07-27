@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://raisa.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://raisa.dev/" rel="alternate" type="text/html" /><updated>2022-07-27T10:50:22+02:00</updated><id>https://raisa.dev/feed.xml</id><title type="html">raisa.dev</title><subtitle>A blog about a programmer.</subtitle><author><name>Frederik Raisa</name></author><entry><title type="html">C++: 01 - The Basics</title><link href="https://raisa.dev/learning/cpp-01/" rel="alternate" type="text/html" title="C++: 01 - The Basics" /><published>2022-07-26T00:00:00+02:00</published><updated>2022-07-26T00:00:00+02:00</updated><id>https://raisa.dev/learning/cpp-01</id><content type="html" xml:base="https://raisa.dev/learning/cpp-01/">&lt;p class=&quot;notice--warning&quot;&gt;&lt;strong&gt;Unfinished:&lt;/strong&gt; Article is not done yet.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://raisa.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://raisa.dev/" rel="alternate" type="text/html" /><updated>2022-07-27T10:54:42+02:00</updated><id>https://raisa.dev/feed.xml</id><title type="html">raisa.dev</title><subtitle>A blog about a programmer.</subtitle><author><name>Frederik Raisa</name></author><entry><title type="html">C++: 01 - The Basics</title><link href="https://raisa.dev/learning/cpp-01/" rel="alternate" type="text/html" title="C++: 01 - The Basics" /><published>2022-07-26T00:00:00+02:00</published><updated>2022-07-26T00:00:00+02:00</updated><id>https://raisa.dev/learning/cpp-01</id><content type="html" xml:base="https://raisa.dev/learning/cpp-01/">&lt;p class=&quot;notice--warning&quot;&gt;&lt;strong&gt;Unfinished:&lt;/strong&gt; Article is not done yet.&lt;/p&gt;
 
 &lt;p class=&quot;notice--info&quot;&gt;&lt;strong&gt;Disclaimer:&lt;/strong&gt; This is a series of posts about C++. It’s mainly for me to learn C++, but just as much for me to be able to teach others.
 I will be using only one convention when talking about certain topics. Meaning that I will only name alternative
@@ -88,6 +88,8 @@ methods if I deem it fitting. So just treat my word as law and of course lookup 
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
+
+&lt;p&gt;$ \int_a^b f(x)\,dx. $&lt;/p&gt;
 
 &lt;h1 id=&quot;video&quot;&gt;Video&lt;/h1&gt;
 
