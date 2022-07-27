@@ -56,6 +56,7 @@ plugins:
   - jemoji
   - jekyll-include-cache
   - jekyll-spaceship
+  - jekyll-tabs
 
 author:
   name   : "Frederik Raisa"
@@ -131,3 +132,6 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+head_scripts:
+  - /assets/js/tabs.js
