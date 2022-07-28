@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/learning/cpp-01/</loc>
+<loc>https://raisa.dev/learning/cpp-01/</loc>
 <lastmod>2022-07-27T21:34:30+02:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/about/</loc>
+<loc>https://raisa.dev/about/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/categories/</loc>
+<loc>https://raisa.dev/categories/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/</loc>
+<loc>https://raisa.dev/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/tags/</loc>
+<loc>https://raisa.dev/tags/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/posts/</loc>
+<loc>https://raisa.dev/posts/</loc>
 </url>
 </urlset>
