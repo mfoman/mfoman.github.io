@@ -1,1 +1,0 @@
-/usr/bin/g++  -g   CMakeFiles/sources.dir/src/main.cpp.o CMakeFiles/sources.dir/src/uf/uf.cpp.o  -o sources 
