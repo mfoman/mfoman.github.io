@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mfoman/Projects/mfoman.github.io/examples/union-find/main.cpp
+uf.h
+/home/mfoman/Projects/mfoman.github.io/examples/union-find/uf.h
+iostream
+-
+
+/home/mfoman/Projects/mfoman.github.io/examples/union-find/uf.h
+
