@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://raisa.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://raisa.dev/" rel="alternate" type="text/html" /><updated>2022-07-28T11:38:04+02:00</updated><id>https://raisa.dev/feed.xml</id><title type="html">raisa.dev</title><subtitle>A blog about a programmer.</subtitle><author><name>Frederik Raisa</name></author><entry><title type="html">C++: 01 - The Basics</title><link href="https://raisa.dev/learning/cpp-01/" rel="alternate" type="text/html" title="C++: 01 - The Basics" /><published>2022-07-26T21:34:30+02:00</published><updated>2022-07-27T21:34:30+02:00</updated><id>https://raisa.dev/learning/cpp-01</id><content type="html" xml:base="https://raisa.dev/learning/cpp-01/">&lt;p class=&quot;notice--warning&quot;&gt;&lt;strong&gt;Unfinished:&lt;/strong&gt; Article is not done yet.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://raisa.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://raisa.dev/" rel="alternate" type="text/html" /><updated>2022-07-28T11:40:47+02:00</updated><id>https://raisa.dev/feed.xml</id><title type="html">raisa.dev</title><subtitle>A blog about a programmer.</subtitle><author><name>Frederik Raisa</name></author><entry><title type="html">C++: 01 - The Basics</title><link href="https://raisa.dev/learning/cpp-01/" rel="alternate" type="text/html" title="C++: 01 - The Basics" /><published>2022-07-26T21:34:30+02:00</published><updated>2022-07-27T21:34:30+02:00</updated><id>https://raisa.dev/learning/cpp-01</id><content type="html" xml:base="https://raisa.dev/learning/cpp-01/">&lt;p class=&quot;notice--warning&quot;&gt;&lt;strong&gt;Unfinished:&lt;/strong&gt; Article is not done yet.&lt;/p&gt;
 
 &lt;!--more--&gt;
 
@@ -49,7 +49,7 @@ Then I’ll break it down into parts.&lt;/p&gt;
 
 &lt;h3 id=&quot;11-variables&quot;&gt;1.1 Variables&lt;/h3&gt;
 
-&lt;ul class=&quot;tab&quot; data-tab=&quot;3a337508-e58b-41a3-9e06-e7d0ba3891b0&quot; data-name=&quot;hello&quot;&gt;
+&lt;ul class=&quot;tab&quot; data-tab=&quot;edf382b5-de20-49f1-ba6d-f0c0733ae01e&quot; data-name=&quot;hello&quot;&gt;
   
       &lt;li class=&quot;active&quot;&gt;
           &lt;a href=&quot;#&quot;&gt;Comments &lt;/a&gt;
@@ -60,7 +60,7 @@ Then I’ll break it down into parts.&lt;/p&gt;
       &lt;/li&gt;
   
 &lt;/ul&gt;
-&lt;ul class=&quot;tab-content&quot; id=&quot;3a337508-e58b-41a3-9e06-e7d0ba3891b0&quot; data-name=&quot;hello&quot;&gt;
+&lt;ul class=&quot;tab-content&quot; id=&quot;edf382b5-de20-49f1-ba6d-f0c0733ae01e&quot; data-name=&quot;hello&quot;&gt;
   
       &lt;li class=&quot;active&quot;&gt;
 &lt;div class=&quot;language-cpp highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// main.cpp&lt;/span&gt;
